@@ -35,6 +35,12 @@ namespace mvcgitexample.Controllers
         {
             return View();
         }
+        public IActionResult TestTestPrivacy()
+        {
+            return View();
+        }
+
+
 
     }
 }
