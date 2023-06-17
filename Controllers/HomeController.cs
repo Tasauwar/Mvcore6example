@@ -36,11 +36,5 @@ namespace mvcgitexample.Controllers
             return View();
         }
 
-        public IActionResult Methodmerebeforeanotherchangesmere()
-        {
-            return View();
-        }
-
-
     }
 }
