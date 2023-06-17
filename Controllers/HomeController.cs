@@ -35,9 +35,6 @@ namespace mvcgitexample.Controllers
         {
             return View();
         }
-        public IActionResult TestPrivacyRevertMethod()
-        {
-            return View();
-        }
+
     }
 }
