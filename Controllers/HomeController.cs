@@ -7,7 +7,10 @@ namespace mvcgitexample.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+
         //add test method for merging changes
+    //add comment for testing merge code
+>
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -28,5 +31,10 @@ namespace mvcgitexample.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+         public IActionResult TestPrivacy()
+        {
+            return View();
+        }
+
     }
 }
