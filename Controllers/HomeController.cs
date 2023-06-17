@@ -8,6 +8,7 @@ namespace mvcgitexample.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+    //add comment for testing merge code
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
