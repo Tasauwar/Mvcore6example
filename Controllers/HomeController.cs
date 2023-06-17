@@ -35,6 +35,12 @@ namespace mvcgitexample.Controllers
         {
             return View();
         }
+        public IActionResult TestTestPrivacy()
+        {
+            return View();
+        }
+
+
 
 
         public IActionResult Methodmerebeforeanotherchangesmereafter()
@@ -42,6 +48,9 @@ namespace mvcgitexample.Controllers
             return View();
         }
 
-
+        public IActionResult Methodmerebeforeanotherchangesmereafter2()
+        {
+            return View();
+        }
     }
 }
